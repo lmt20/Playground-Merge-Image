@@ -13,6 +13,10 @@
 		1841A42A25F8B97800811548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1841A42825F8B97800811548 /* Main.storyboard */; };
 		1841A42C25F8B97800811548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1841A42B25F8B97800811548 /* Assets.xcassets */; };
 		1841A42F25F8B97800811548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1841A42D25F8B97800811548 /* LaunchScreen.storyboard */; };
+		1841A43925F8BAFF00811548 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841A43825F8BAFF00811548 /* CustomView.swift */; };
+		1841A43C25F8BB1800811548 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1841A43B25F8BB1800811548 /* CustomView.xib */; };
+		1841A44125F8BBEF00811548 /* MergeTwoImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1841A44025F8BBEF00811548 /* MergeTwoImageView.xib */; };
+		1841A44425F8BC0400811548 /* MergeTwoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841A44325F8BC0400811548 /* MergeTwoImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1841A42B25F8B97800811548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1841A42E25F8B97800811548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1841A43025F8B97800811548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1841A43825F8BAFF00811548 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		1841A43B25F8BB1800811548 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		1841A44025F8BBEF00811548 /* MergeTwoImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MergeTwoImageView.xib; sourceTree = "<group>"; };
+		1841A44325F8BC0400811548 /* MergeTwoImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +64,10 @@
 		1841A42125F8B97800811548 /* Test_XibFile */ = {
 			isa = PBXGroup;
 			children = (
+				1841A43E25F8BBCF00811548 /* View */,
 				1841A42225F8B97800811548 /* AppDelegate.swift */,
 				1841A42425F8B97800811548 /* SceneDelegate.swift */,
+				1841A43725F8B98800811548 /* New Group */,
 				1841A42625F8B97800811548 /* ViewController.swift */,
 				1841A42825F8B97800811548 /* Main.storyboard */,
 				1841A42B25F8B97800811548 /* Assets.xcassets */,
@@ -65,6 +75,32 @@
 				1841A43025F8B97800811548 /* Info.plist */,
 			);
 			path = Test_XibFile;
+			sourceTree = "<group>";
+		};
+		1841A43725F8B98800811548 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				1841A43825F8BAFF00811548 /* CustomView.swift */,
+				1841A43B25F8BB1800811548 /* CustomView.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		1841A43E25F8BBCF00811548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1841A43F25F8BBD600811548 /* MergeTwoImage */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1841A43F25F8BBD600811548 /* MergeTwoImage */ = {
+			isa = PBXGroup;
+			children = (
+				1841A44025F8BBEF00811548 /* MergeTwoImageView.xib */,
+				1841A44325F8BC0400811548 /* MergeTwoImageView.swift */,
+			);
+			path = MergeTwoImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1841A42F25F8B97800811548 /* LaunchScreen.storyboard in Resources */,
+				1841A43C25F8BB1800811548 /* CustomView.xib in Resources */,
 				1841A42C25F8B97800811548 /* Assets.xcassets in Resources */,
+				1841A44125F8BBEF00811548 /* MergeTwoImageView.xib in Resources */,
 				1841A42A25F8B97800811548 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1841A42725F8B97800811548 /* ViewController.swift in Sources */,
+				1841A43925F8BAFF00811548 /* CustomView.swift in Sources */,
 				1841A42325F8B97800811548 /* AppDelegate.swift in Sources */,
+				1841A44425F8BC0400811548 /* MergeTwoImageView.swift in Sources */,
 				1841A42525F8B97800811548 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
